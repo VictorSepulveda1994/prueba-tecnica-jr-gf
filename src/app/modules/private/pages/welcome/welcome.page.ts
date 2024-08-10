@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './welcome.page.scss'
 })
 export class WelcomePage {
-
+  protected user: any;
 }
