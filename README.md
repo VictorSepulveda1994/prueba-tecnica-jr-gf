@@ -1,6 +1,6 @@
 # Proyecto: Sistema de Login para Grupo Firma
 
-Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7. Esta decisión fue debido a que varios métodos y recursos de la versión 16 ya se encuentran en estado "deprecated".
 
 ## Índice
 - Descripción del Proyecto
@@ -8,6 +8,7 @@ Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-
 - Instalación
 - Uso
 - Estructura del Proyecto
+- Diagrama de Flujo
 - Características Implementadas
 - Mejoras Futuras
 
@@ -88,6 +89,46 @@ A continuación se muestra una estructura básica del proyecto, con algunos lige
   ├── README.md
 ~~~
 
+## Diagrama de Flujo
+
+~~~
+      [Inicio]
+          |
+          v
+   [Pantalla de Login]
+          |
+   +------------------+
+   |  Ingresar Credenciales  |
+          |
+   +------------------+
+          |
+          v
+[¿Credenciales Correctas?]
+     /              \
+   Sí                No
+   |                 |
+   v                 v
+[Redirigir a     [Mostrar Error]
+Vista Protegida]
+          |
+          v
+   [Vista Protegida]
+          |
+[¿Usuario Autenticado?]
+     /   \
+   Sí      No
+   |        |
+   v        v
+[Mostrar  [Redirigir a
+Contenido]  Login]
+          |
+          v
+     [Logout]
+          |
+          v
+  [Redirigir a Login]
+~~~
+
 ## Características Implementadas
 1. Login Simple
 - Integrado con el endpoint https://dummyjson.com/auth/login.
@@ -113,7 +154,9 @@ A continuación se muestra una estructura básica del proyecto, con algunos lige
 
 8. Arquitectura del proyecto en capas.
 
-9. Documentación básica
+9. Documentación básica.
+
+10. Otros añadidos.
 
 ## Mejoras Futuras
 
