@@ -1,6 +1,6 @@
 # Proyecto: Sistema de Login para Grupo Firma
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 
 ## Índice
 - Descripción del Proyecto
