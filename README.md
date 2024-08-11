@@ -43,7 +43,7 @@ npm install
 - Inicia el servidor de desarrollo de Angular:
 
 ~~~
-`ng serve -o`
+ng serve -o
 ~~~
 
 ## Uso
