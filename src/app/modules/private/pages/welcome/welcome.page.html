@@ -1,6 +1,6 @@
 <div class="container mt-5">
   <div class="card p-4 shadow">
-    <h2 class="text-center">¡Bienvenido {{ user.firstName }} {{ user.lastName }}!</h2>
+    <h2 class="text-center">¡Bienvenido/a {{ user.firstName }} {{ user.lastName }}!</h2>
     <div class="d-flex justify-content-between mt-4">
       <div>
         <p><strong>Usuario:</strong> {{ user.username }}</p>
@@ -12,6 +12,9 @@
         <img [src]="user.image" alt="Foto Perfil" class="rounded-circle" style="width: 100px; height: 100px;">
       </div>
     </div>
+  </div>
+  <div class="text-center mt-4">
+    <button (click)="logout()" class="btn btn-danger">Logout</button>
   </div>
 </div>
 
