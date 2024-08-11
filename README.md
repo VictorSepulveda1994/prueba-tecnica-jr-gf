@@ -28,8 +28,8 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu entorno de d
 - Primero, clona el repositorio desde GitHub:
 
 ~~~
-git clone https://github.com/tu-usuario/nombre-del-proyecto.git
-cd nombre-del-proyecto
+git clone https://github.com/VictorSepulveda1994/prueba-tecnica-jr-gf.git
+cd prueba-tecnica-jr-gf.git
 ~~~
 
 2. Instalar Dependencias
