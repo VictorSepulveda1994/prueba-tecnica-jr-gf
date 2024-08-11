@@ -2,6 +2,8 @@
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7. Esta decisión fue debido a que varios métodos y recursos de la versión 16 ya se encuentran en estado "deprecated".
 
+Para evitar otras instalaciones de CLI se puede utilizar el [IDE de Google](https://idx.dev/) (Solo si se desea).
+
 ## Índice
 - Descripción del Proyecto
 - Requisitos Previos
@@ -163,4 +165,6 @@ Contenido]  Login]
 - Validación de Formularios: Implementar validación en el formulario de login.
 - Interceptor: Añadir un interceptor para gestionar automáticamente los headers de autenticación.
 - Página de Error 404: Crear una página de error personalizada para rutas no encontradas.
-- Pruebas Unitarias: Añadir pruebas unitarias con Jasmine y Karma
+- Pruebas Unitarias: Añadir pruebas unitarias con Jasmine y Karma.
+- Seguridad en el almacenamiento de los datos y tokens.
+- Despliegue.
