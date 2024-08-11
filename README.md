@@ -9,7 +9,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Uso
 - Estructura del Proyecto
 - Características Implementadas
-- Despliegue
 - Mejoras Futuras
 
 ## Descripción del Proyecto
@@ -26,18 +25,26 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu entorno de d
 ## Instalación
 
 1. Clonar el Repositorio
-Primero, clona el repositorio desde GitHub:
+- Primero, clona el repositorio desde GitHub:
 
-`git clone https://github.com/tu-usuario/nombre-del-proyecto.git`
-`cd nombre-del-proyecto`
+~~~
+git clone https://github.com/tu-usuario/nombre-del-proyecto.git
+cd nombre-del-proyecto
+~~~
 
 2. Instalar Dependencias
-Instala las dependencias del proyecto utilizando npm:
-`npm install`
+- Instala las dependencias del proyecto utilizando npm:
+
+~~~
+npm install
+~~~
 
 3. Ejecutar el Proyecto
-Inicia el servidor de desarrollo de Angular:
+- Inicia el servidor de desarrollo de Angular:
+
+~~~
 `ng serve -o`
+~~~
 
 ## Uso
 
