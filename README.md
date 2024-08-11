@@ -29,7 +29,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu entorno de d
 
 ~~~
 git clone https://github.com/VictorSepulveda1994/prueba-tecnica-jr-gf.git
-cd prueba-tecnica-jr-gf.git
+cd prueba-tecnica-jr-gf
 ~~~
 
 2. Instalar Dependencias
